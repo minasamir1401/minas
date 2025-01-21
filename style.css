@@ -1,0 +1,155 @@
+/* تصميم عام للجسم (Body) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* تنسيق العناوين */
+h1, h2, h3 {
+    color: #444;
+    text-align: center;
+}
+
+/* تنسيق الفقرات */
+p {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* تحسين شكل الروابط */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00509e;
+    text-decoration: underline;
+}
+
+/* تصميم الصور */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* تصميم القوائم */
+ul {
+    list-style-type: square;
+    margin: 20px;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* تصميم الجداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* تحسين الأزرار */
+button, input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #00509e;
+}
+
+/* تصميم رأس الموقع */
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* تصميم الفوتر */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* تحسين النماذج */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    width: auto;
+}
+
+/* تحسين التصميم للهواتف */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
